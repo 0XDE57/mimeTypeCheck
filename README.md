@@ -21,5 +21,5 @@ Firefox: <br>
 `Loading script from file: URI (“.../test.gif”) was blocked because its MIME type (“image/gif”) is not a valid JavaScript MIME type.`
 
 To fix on Firefox:
-1. goto **about:config* 
+1. goto **about:config**
 2. set property `security.block_fileuri_script_with_wrong_mime` to **true**
