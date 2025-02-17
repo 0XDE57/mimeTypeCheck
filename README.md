@@ -1,4 +1,10 @@
-<h1>MIME type check</h1>
+MIME type check
+-
+
+The file `test.gif` has some javascript appended to the end of the file. It is executed when loaded as a script:
+```html
+<script src="test.gif"></script>
+```
 
 1. Download folder locally and open `testload.html` in a browser.
 2. If you get a javascript alert, your browser did not enforce MIME type check before executing the .gif
