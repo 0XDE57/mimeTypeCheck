@@ -1,0 +1,14 @@
+<html>
+
+<body>
+<script src="test.gif"></script>
+</body>
+<h1>MIME type check</h1>
+<p>If you get a javascript alert, your browser did not enforce MIME type check before executing the .gif</p>
+
+<br>
+<p>Check console for error message: <p>
+<p>Chrome: <strong>Refused to execute script from '.../test.gif' because its MIME type ('image/gif') is not executable.</strong></p>
+<p>Firefox: <strong>Loading script from file: URI (“.../test.gif”) was blocked because its MIME type (“image/gif”) is not a valid JavaScript MIME type.</strong></p>
+<p>To fix on Firefox, set the <strong>about:config</strong> property <strong>security.block_fileuri_script_with_wrong_mime</strong> = true </p>
+</html>
