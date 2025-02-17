@@ -1,7 +1,10 @@
 MIME type check
 -
 
-The file `test.gif` has some javascript appended to the end of the file. It is executed when loaded as a script:
+The file `test.gif` has some javascript appended to the end of the file.
+![screenshot](/screenshot.png?raw=true)
+
+It is executed when loaded as a script:
 ```html
 <script src="test.gif"></script>
 ```
