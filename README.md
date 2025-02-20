@@ -1,4 +1,4 @@
-MIME type check
+File uri MIME type check
 -
 
 The file `test.gif` has some javascript appended to the end of the file.
